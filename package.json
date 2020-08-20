@@ -5,12 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "deploy" : "node server.js",
-    "test": "mocha"
+    "deploy": "node server.js",
+    "test": "echo \"No test specified\""
   },
   "repository": {
-  "type": "git",
-  "url": "http://github.com/c-hering/CCBCB"
+    "type": "git",
+    "url": "http://github.com/c-hering/CCBCB"
   },
   "keywords": [],
   "author": "Caleb Hering",
