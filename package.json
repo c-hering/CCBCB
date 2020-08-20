@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "engines":{
-    "node":"12.x"
+  "engines": {
+    "node": "12.x"
   },
   "scripts": {
     "start": "node server.js"
@@ -13,9 +13,9 @@
     "type": "git",
     "url": "http://github.com/c-hering/CCBCB"
   },
-  "dependencies" : {
-    "express":"4.17.1",
-    "sqlite3":"5.0.0"
+  "dependencies": {
+    "express": "4.17.1",
+    "sqlite3": "5.x"
   },
   "keywords": [],
   "author": "Caleb Hering",
