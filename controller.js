@@ -2,14 +2,7 @@ var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database('./serverdb.db');
 
 const uuidGen = require('uuid/v4');
-const md5 = require('md5');
-const bcrypt = require('../bcrypt');
 
-function verify(recievedHash, rawPassword){
-
-
-
-}
 
 exports.home = (req,res) => {
 
